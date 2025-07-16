@@ -80,9 +80,9 @@ streamlit run app.py
 
 ## 📸 Streamlit App Preview
 
-| Input Form                               | Prediction Result                          |
-| ---------------------------------------- | ------------------------------------------ |
-| ![form](https://github.com/M-Z-5474/email-spam-detector/tree/main/assets/input_form.png) | ![result](https://github.com/M-Z-5474/email-spam-detector/tree/main/assets/prediction_result.png) |
+| Input Form | Prediction Result |
+|------------|------------------|
+| ![form](https://github.com/M-Z-5474/email-spam-detector/tree/main/assets/input_form.png) | ![result](https://github.com/M-Z-5474/email-spam-detector/tree)_)
 
 ---
 
