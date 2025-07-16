@@ -48,6 +48,18 @@ This project demonstrates how to detect **SPAM emails** using **semi-supervised 
 - Deployment: **Streamlit Cloud**
 
 ---
+**✅ Final Model Comparison**
+
+| Model                          | Accuracy | Spam Recall | Spam F1  | Comment                               |
+| ------------------------------ | -------- | ----------- | -------- | ------------------------------------- |
+| Self-Training Classifier       | 95%      | 0.66        | 0.79     | Strong for limited labels             |
+| Supervised LogisticRegression  | 95%      | 0.62        | 0.77     | Good baseline                         |
+| **SMOTE + LogisticRegression** | **98%**  | **0.87**    | **0.91** | ⭐ Best performance (balanced & clean) |
+
+
+🔥 SMOTE + Logistic Regression gives the best performance, especially for the minority class (spam), by fixing the imbalance problem.
+
+---
 
 ## 📂 Repository Structure
 
