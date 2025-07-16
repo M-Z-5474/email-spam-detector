@@ -1,8 +1,4 @@
-Great! Here's a **professional `README.md`** for your **main GitHub repository** — it introduces the project, highlights the deployed app, and links to your notebook and model:
 
----
-
-````markdown
 # 📧 Email Spam Detector (Semi-Supervised Learning)
 
 This project demonstrates how to detect **SPAM emails** using **semi-supervised machine learning**, even with limited labeled data. It combines advanced techniques like **Self-Training**, **SMOTE**, and **TF-IDF** vectorization for robust spam classification.
