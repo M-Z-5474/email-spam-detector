@@ -82,7 +82,7 @@ streamlit run app.py
 
 | Input Form | Prediction Result |
 |------------|------------------|
-| ![form](https://github.com/M-Z-5474/email-spam-detector/tree/main/assets/input_form.png) | ![result](https://github.com/M-Z-5474/email-spam-detector/tree)_)
+| ![form](https://raw.githubusercontent.com/M-Z-5474/email-spam-detector/main/assets/input_form.png) | ![result](https://raw.githubusercontent.com/M-Z-5474/email-spam-detector/main/assets/prediction_result.png) |
 
 ---
 
