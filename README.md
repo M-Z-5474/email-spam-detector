@@ -57,7 +57,7 @@ This project demonstrates how to detect **SPAM emails** using **semi-supervised 
 ├── clf_smote.pkl              # Final trained model (SMOTE + Logistic Regression)
 ├── requirements.txt           # Python dependencies
 ├── notebook/
-│   └── spam_detection_notebook.ipynb  # Full training & evaluation notebook
+│   └── Email_Spam_Detection.ipynb  # Full training & evaluation notebook
 │   └── README.md              # Notebook-specific documentation
 ├── README.md                  # You are here!
 ````
