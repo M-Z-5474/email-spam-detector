@@ -1,3 +1,36 @@
+import streamlit as st
+import string
+import joblib
+import nltk
+from nltk.corpus import stopwords
+
+# Download stopwords (if not already present)
+try:
+    nltk.data.find("corpora/stopwords")
+except LookupError:
+    nltk.download("stopwords")
+
+# Load vectorizer and trained model
+vectorizer = joblib.load("vectorizer.pkl")
+model = joblib.load("clf_smote.pkl")
+
+# Preprocessing function
+def preprocess(text):
+    stop_words = set(stopwords.words("english"))
+    text = text.lower().translate(str.maketrans('', '', string.punctuation))
+    return ' '.join([word for word in text.split() if word not in stop_words])
+
+# Page config
+st.set_page_config(page_title="📧 Spam Email Detector", page_icon="📬")
+
+# Sidebar example
+with st.sidebar.expander("📌 Example Email"):
+    st.markdown("""
+**Subject**: 🎉 Congratulations! You've won an iPhone!  
+**Body**:  You have been selected to receive a brand new iPhone 15 Pro Max!
+Claim your prize now at: http://fake-spam-link.com
+Offer valid for 24 hours only.
+
 🟡 _Expected Result: SPAM_
 """)
 
