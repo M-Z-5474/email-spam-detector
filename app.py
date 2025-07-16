@@ -59,3 +59,5 @@ with st.expander("📌 Click to see an example"):
 You have been selected to receive a brand new iPhone 15 Pro Max!  
 Claim your prize now at: http://fake-spam-link.com  
 Offer valid for 24 hours only.
+🟡 Expected Result: SPAM
+""")
