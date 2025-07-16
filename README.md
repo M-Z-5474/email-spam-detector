@@ -7,7 +7,7 @@
 ![Status](https://img.shields.io/badge/Status-Deployed-brightgreen)
 ![Last Commit](https://img.shields.io/github/last-commit/M-Z-5474/email-spam-detector)
 ![Repo Size](https://img.shields.io/github/repo-size/M-Z-5474/email-spam-detector)
-![Stars](https://img.shields.io/github/stars/M-Z-5474/email-spam-detector?style=social)
+
 
 
 This project demonstrates how to detect **SPAM emails** using **semi-supervised machine learning**, even with limited labeled data. It combines advanced techniques like **Self-Training**, **SMOTE**, and **TF-IDF** vectorization for robust spam classification.
