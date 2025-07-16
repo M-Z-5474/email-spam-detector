@@ -99,7 +99,8 @@ All preprocessing, training logic, and model comparisons are included in:
 ## 🧑‍💻 Author
 
 **Muhammad Zain Mushtaq**
-📍 Researcher & AI/ML Enthusiast
+
+📍 AI/ML & Data Scientist Enthusiast | Researcher 
 🔗 [LinkedIn](https://www.linkedin.com/in/muhammad-zain-m-a75163358)
 💼 [Portfolio](https://github.com/M-Z-5474)
 
@@ -115,19 +116,4 @@ If you found this project helpful:
 
 ---
 
-## 📬 License
 
-This project is open-source and available under the [MIT License](LICENSE).
-
-```
-
----
-
-Would you like me to:
-
-- Add a **badge section** (e.g., Streamlit, Python version)?
-- Convert this into an actual `README.md` file you can copy-paste?
-- Provide **images** (preview screenshots) for the Streamlit app?
-
-Let me know how you’d like to finalize and polish it!
-```
